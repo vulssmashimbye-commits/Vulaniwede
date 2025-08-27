@@ -1,0 +1,229 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Navigation */
+  header {
+    background-color: #62d8fc;
+    padding: 10px 20px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    color: #FFCA28;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #21a38d;
+    color: #FFFFFF;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .hero-section h1 { font-size: 2.5em; margin-bottom: 10px; }
+  .hero-section p { font-size: 1.2em; margin-bottom: 20px; }
+  
+  /* CTA Button */
+  .cta-button {
+    background-color: #83d4fa;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .cta-button:hover { background-color: #00a8ad; }
+  
+  /* Announcements Section */
+  .announcements-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .announcement { margin: 10px 0; }
+  
+  /* Services Section */
+  .services-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .service-item {
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+  }
+  .service-item img { max-width: 100%; height: auto; }
+  
+  /* About Section */
+  .about-section, .mission-section, .goals-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .mission-section { background-color: #F5F5F5; }
+  .goals-section ul {
+    list-style: disc;
+    margin: 20px auto;
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  /* Courses Section */
+  .courses-header, .courses-grid {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .course-filter select {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .courses-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .course-item {
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+  }
+  .course-item img { max-width: 100%; height: auto; }
+  
+  /* Events Section */
+  .events-header, .events-grid {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .events-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .event-item {
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  /* Blog Section */
+  .blog-header, .blog-posts {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .blog-post { margin-bottom: 20px; }
+  
+  /* Contact Section */
+  .contact-header, .contact-content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .contact-form, .contact-details {
+    width: 45%;
+    min-width: 300px;
+  }
+  .contact-form form, .login-form form, .signup-form form, .newsletter-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-form input, .contact-form textarea, .login-form input, .signup-form input, .signup-form select, .newsletter-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact-form textarea { height: 150px; }
+  .contact-form button, .login-form button, .signup-form button, .newsletter-form button {
+    background-color: #28a9ff;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact-form button:hover, .login-form button:hover, .signup-form button:hover, .newsletter-form button:hover {
+    background-color: #29ceb2;
+  }
+  .live-chat { padding: 20px; text-align: center; }
+  
+  /* Login/Signup Section */
+  .login-header, .login-content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .login-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .login-form, .signup-form {
+    width: 45%;
+    min-width: 300px;
+  }
+  
+  /* Footer */
+  .site-footer {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+  }
+  .site-footer a { color: #572eec; }
+  .newsletter-footer { margin: 20px 0; }
+  .newsletter-footer form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .newsletter-footer input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .newsletter-footer button {
+    background-color: #61a5f3;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .newsletter-footer button:hover { background-color: #56dbc5; }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-item, .course-item, .event-item, .contact-form, .contact-details, .login-form, .signup-form {
+      width: 100%;
+    }
+    nav ul { flex-direction: column; text-align: center; }
+  }  
